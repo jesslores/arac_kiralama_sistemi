@@ -40,6 +40,7 @@ Derleme:
 Bash
 
 gcc main.c -o arac_kiralama
+
 Çalıştırma:
 
 Bash
@@ -55,3 +56,4 @@ Veri Yapıları: İlişkili verileri tutmak için struct kullanımı.
 
 
 Hata Kontrolü: Geçersiz girişleri (sayı yerine harf girilmesi vb.) engellemek için getSafeInt ve clearBuffer fonksiyonları.
+
