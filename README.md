@@ -45,11 +45,13 @@ gcc main.c -o arac_kiralama
 Bash
 
 ./arac_kiralama
+
 💻 Kullanılan Teknikler
 Dinamik Bellek Yönetimi: malloc ve realloc kullanılarak araç listesi çalışma zamanında genişletilir.
 
 Dosya Giriş/Çıkış (I/O): fscanf ve fprintf ile kalıcı veri depolama.
 
 Veri Yapıları: İlişkili verileri tutmak için struct kullanımı.
+
 
 Hata Kontrolü: Geçersiz girişleri (sayı yerine harf girilmesi vb.) engellemek için getSafeInt ve clearBuffer fonksiyonları.
